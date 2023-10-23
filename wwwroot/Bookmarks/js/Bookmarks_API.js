@@ -1,5 +1,5 @@
 class Bookmarks_API {
-    static API_URL() { return "http://localhost:5000/api/bookmarks" };
+    static API_URL() { return "https://valiant-dazzling-pamphlet.glitch.me/api/bookmarks" };
     static async HEAD() {
         return new Promise(resolve => {
             $.ajax({
